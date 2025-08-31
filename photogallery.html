@@ -1,0 +1,128 @@
+<!doctype html>
+<html> 
+<meta name=viewpoint" content="width=device-width,initial-scale=1.0"/>
+<title>photoshow</title>
+
+<div id="heading"><head>
+<h>Photo Gallery</h1>
+</div>
+</head>
+<style>
+@keyframes mzoom
+{
+from{transform:scale(2);opacity:0}
+to{transform:scale(1);opacity:1}
+}
+
+#heading 
+{
+background:white;
+color:black;
+text-align:center;
+box-shadow:20px 20px 20px gray;
+font-size:40px;
+}
+body
+{
+background:url(images/black.jpg);
+//background:black;
+animation:mzoom 3s;
+}
+.pic
+{
+width:22%;
+margin:80px;
+border-radius:400px;
+}
+.pic:hover
+{
+transform:scale(1.50)rotate(360deg);
+}
+background:black;
+
+li
+{
+font-size:40%;
+}
+/* extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px)
+{
+body{background:yellow;}
+hearder{
+  //display:none;
+  font-size:20px;
+}
+.pic
+{
+width:100%;
+margin:1px;
+margin-bottom:10px;
+}
+}
+/* small devices (potrait tablets and large phones, 600px nd up) */
+@media only screen and (min-width:600px)
+{
+#container
+{
+margin-left:50px;
+}
+
+body{background:pink;}
+.pic
+{
+width:40%;
+margin:0px;
+mrgin-bottom:10px;
+}
+}
+/* medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:768px)
+{
+body{background:teal;}
+.pic
+  {
+  width:20%;
+padding:80px;
+  }
+}
+/* large devices (laptops/desktops, 992px and up)*/
+@media only screen and (min-width:992px)
+{
+body{background:purple;}
+}
+/* extra large devices (large laptops/desktops, 1200px and up)*/
+  @media only screen and (min-width:1200px)
+  {
+  body{background:black;}
+  }
+
+     
+</style>
+<li><a href="practice work.html">menu</a></li>
+
+<body>
+<a href="abhi1.html">
+<img src="images/abhi1.jpeg" class="pic">
+<a href="abhi2.html">
+<img src="images/abhi2.jpeg" class="pic">
+<a href="abhi3.html">
+<img src="images/abhi3.png" class="pic">
+<a href="abhi7.html">
+<img src="images/abhi7.png" class="pic">
+<a href="abhi5.html">
+<img src="images/abhi5.jpeg" class="pic">
+<a href="p6.html">
+<img src="images/abhi4.jpeg" class="pic">
+<a href="abhi6.html">
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+  
